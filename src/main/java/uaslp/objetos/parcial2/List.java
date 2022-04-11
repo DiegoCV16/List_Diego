@@ -3,7 +3,8 @@ package uaslp.objetos.parcial2;
 import uaslp.objetos.parcial2.exception.NotNullValuesAllowedException;
 import uaslp.objetos.parcial2.exception.NotValidIndexException;
 
-public interface List <T> {
+public interface List<T>{
+
     void addAtTail(T data) throws NotNullValuesAllowedException;
     void addAtFront(T data) throws NotNullValuesAllowedException;
     void removeAll();

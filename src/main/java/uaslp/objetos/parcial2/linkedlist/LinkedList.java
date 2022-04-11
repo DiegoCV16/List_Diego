@@ -4,6 +4,7 @@ import uaslp.objetos.parcial2.List;
 import uaslp.objetos.parcial2.exception.NotNullValuesAllowedException;
 import uaslp.objetos.parcial2.exception.NotValidIndexException;
 
+
 public class LinkedList<T> implements List<T> {
     private Node<T> head;
     private Node<T> tail;
